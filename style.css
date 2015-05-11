@@ -1,0 +1,46 @@
+#head {	
+width: 320px;
+padding:10px;
+border:double black;
+text-align:center;
+	
+}
+#engine {
+        width: 320px;
+	padding:10px;
+	display: none;
+        border-top:none;
+	border-bottom:none;
+	border-right:double black;
+	border-left:double black;
+}
+#car {
+        width: 320px;
+	padding:10px;
+	display: none;
+	border-top:none;
+	border-bottom:double black;
+	border-right:double black;
+	border-left:double black;
+
+}
+#truck {
+        width: 320px;
+	padding:10px;
+	display: none;
+	border-top:none;
+	border-bottom:double black;
+	border-right:double black;
+	border-left:double black;
+
+}
+#reply {
+	display: none;
+	width: 320px;
+	padding:10px;
+	border-top:none;
+	border-bottom:double black;
+	border-right:double black;
+	border-left:double black;
+}
+

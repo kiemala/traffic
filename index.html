@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+	<head>
+	<title>Расчет дорожного налога</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="jquery-1.11.1.min.js" type="text/javascript"></script>
+	<script src="script.js" type="text/javascript" charset="utf-8" ></script>
+	</head>
+	<body>
+		<div id="head">
+			<p><strong>Выберите вид автомобиля</strong></p>
+			<p><select id="vehicle">
+			    <option selected="selected">-- Выберите --</option> 
+				<option value="car">Легковой автомобиль</option>
+				<option value="truck">Грузовой автомобиль</option>
+			</select>
+		</div>
+		<div id="container">
+			<form id="main">
+				<div id="engine" >
+					<label for="size">Габариты транспортного средства</label>
+					<br>
+					<input type="text" name="size" id="size"/>
+					<br>
+					<label for="weight">Вес траспортного средства</label>
+					<br>
+					<input type="text" name="weight" id="weight" value=" "/>
+					<br>
+					<label for="fullWeight">Вес траспортного средства с полной загрузкой</label>
+					<br>
+					<input type="text" name="fullWeight" id="fullWeight" value=" "/>
+					<br>
+					<label for="volume">Обьем двигателя</label>
+					<br>
+					<input type="text" name="volume" id="volume" value=" "/>
+					<br>
+					<label for="fuel">Вид топлива</label>
+					<br>
+					<input type="text" name="fuel" id="fuel"/>
+				</div>
+				<div id="car" class="vehicles" >
+					<label for="gearbox">Тип коробки передач</label>
+					<br>
+					<input type="text" name="gearbox" id="gearbox"/>
+					<br>
+					<label for="numPassenger">Количество пассажиров</label>
+					<br>
+					<input type="text" name="numPassenger" id="numPassenger"/>
+					<br>
+					<label for="carcass">Тип кузова</label>
+					<br>
+					<input type="text" name="carcass" id="carcass"/>
+					<br>
+					<br>
+					<input type="button" name="send" id="send"  value="Отправить ">
+					<br>
+					<br>
+				</div>
+				<div id="truck" class="vehicles" >
+					<label for="trailerWeight">Допустимый вес прицепа</label>
+					<br>
+					<input type="text" name="trailerWeight" id="trailerWeight"/>
+					<br>
+					<label for="axis">Количество осей</label>
+					<br>
+					<input type="text" name="axis" id="axis"/>
+					<br>
+					<br>
+					<input type="button" name="send" id="send"  value="Отправить ">
+					<br>
+					<br>
+				</div>
+			</form>	
+				<div  id= "reply">
+				<label >Дорожный налог</label>
+				<br>
+			    <input type="text"  id="duty" value=" ">
+				</div>	
+			
+
+		</div>
+		
+		</body>
+</html>
